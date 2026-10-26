@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets (NEVER PUSH API KEYS!)
+.env
+.streamlit/secrets.toml
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Local Vector Data Store Cache
+data/
+*.faiss
+*.pkl
+
+# IDE / OS Cache
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

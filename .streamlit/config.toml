@@ -1,0 +1,15 @@
+[server]
+port = 8501
+headless = true
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#8083ff"
+backgroundColor = "#0c1324"
+secondaryBackgroundColor = "#151b2d"
+textColor = "#dce1fb"
+font = "sans serif"
